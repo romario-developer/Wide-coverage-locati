@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin: 47px 0 177px 42px;
+}
+
+.link-header {
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 21px;
+    letter-spacing: 0.88px;
+    cursor: pointer;
+    margin-right: 32px;
+
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    border: 1px solid #4CB538;
+    background-color: #6FBF44;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+figure {
+    margin-left: 80px;
+    display: inline-block;
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    color: #161A49;
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin: 47px 0 55px 0;
+}
+
+.link-section {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+section {
+    display: inline-block;
+    margin-left: 84px;
+}
+
+@media (max-width:530px) {
+    .principal {
+        display: table;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    header {
+        margin: 17px 15px 76px;
+        float: right;
+    }
+
+    figure {
+        display: block;
+        margin: 90px 39px 0;
+    }
+
+    h1 {
+        width: 278px;
+        height: 60px;
+        line-height: 30px;
+        font-size: 30px;
+        margin-top: 124px;
+        margin-left: 25%;
+    }
+
+    P {
+        width: 304px;
+        height: 165px;
+        font-size: 18px;
+        Line-height: 33px;
+        letter-spacing: 0.5px;
+        margin-left: 25%;
+    }
+
+    .link-section{
+        margin-left: 25%;
+    }
+
+    .inverter {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .secao1 {
+        order: 2;
+    }
+}
