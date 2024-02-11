@@ -76,8 +76,7 @@ section {
 @media (max-width:530px) {
     .principal {
         display: table;
-        width: 100%;
-        height: 100vh;
+
     }
 
     .link-header {
